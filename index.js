@@ -24,7 +24,7 @@ function currentLine(katzDeliLine){
     let current = []
     for (let i = 0; katzDeliLine.length; i++){
       current.push(`${i + 1}, ${katzDeliLine[i]}`)
-    }ssdfsf
+    }
 
   return `The line is currently: ${current}`
 
